@@ -63,8 +63,8 @@ def render_number(number):
 def generate_problem():
     op = random.choice(["+", "-", "*", "/"])
     if op == "*":
-        a = random.randint(0, 10)
-        b = random.randint(0, 10)
+        a = random.randint(0, 11) # 5
+        b = random.randint(0, 11) # 5
     elif op == "/":
         b = random.randint(1, 10)
         answer = random.randint(1, 10)
