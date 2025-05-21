@@ -158,7 +158,7 @@ def main():
             choices = generate_choices(correct_answer)
             selected = None
 
-        clock.tick(30)
+        clock.tick(25) # 6
 
     pygame.quit()
     sys.exit()
