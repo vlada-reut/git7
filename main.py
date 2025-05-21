@@ -6,7 +6,7 @@ import sys
 pygame.init()
 pygame.font.init()
 
-SCREEN_WIDTH, SCREEN_HEIGHT = 1400, 700 # 2
+SCREEN_WIDTH, SCREEN_HEIGHT = 1600, 700 # 2 4
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 pygame.display.set_caption("Образовательная игра: Веселая арифметика") # 1
 
