@@ -12,8 +12,8 @@ pygame.display.set_caption("Образовательная игра: Весел�
 
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
-LIGHT_GREEN = (200, 255, 200)
-LIGHT_RED = (255, 200, 200)
+LIGHT_GREEN = (190, 255, 200) # 3
+LIGHT_RED = (255, 190, 200) # 3
 LIGHT_BLUE = (173, 216, 230)
 
 DIGITS_PATH = "digits"
