@@ -84,7 +84,7 @@ def generate_choices(correct_answer):
     random.shuffle(choices)
     return choices
 
-def render_problem(a, b, op):
+def render_expression(a, b, op): # 7
     parts = [
         render_number(a),
         symbol_images[op],
@@ -116,7 +116,7 @@ def main():
         else:
             screen.blit(background, (0, 0))
 
-        render_problem(a, b, op)
+        render_expression(a, b, op) # 7
 
         option_surfaces = [render_number(choice) for choice in choices]
         spacing = 60
