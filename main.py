@@ -152,7 +152,7 @@ def main():
                         feedback_timer = pygame.time.get_ticks()
 
         # Обновляем задачу после задержки
-        if feedback_color and pygame.time.get_ticks() - feedback_timer > 1000:
+        if feedback_color and pygame.time.get_ticks() - feedback_timer > 1500: # 10
             feedback_color = None
             a, b, op, correct_answer = generate_problem()
             choices = generate_choices(correct_answer)
